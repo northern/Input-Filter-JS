@@ -11,7 +11,7 @@ $.fn.inputFilter = function( c ) {
 		     // Allow: Ctrl+A
 		    (e.keyCode == 65 && e.ctrlKey === true) || 
 		     // Allow: Ctrl+C, Ctrl+V, Ctrl+R, etc.
-		    (e.keyCode ==  0 && e.ctrlKey === true)
+		    (e.keyCode ==  0 && e.ctrlKey === true) ||
 		     // Allow: home, end, left, right
 		    (e.keyCode >= 35 && e.keyCode <= 39)
 		   ) {
